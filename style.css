@@ -1,0 +1,98 @@
+h1{
+    color: red;
+    font-size: xx-large;
+    padding-left: 30px;
+}
+h2{
+    color:blue;
+    text-align:center;
+    font-size: xx-large;
+    
+    
+}
+p{
+    color:brown;
+    text-align:center;
+  font-size: xx-large;
+    
+}
+
+.header{
+    background-color: aqua;
+    display:flex;
+    justify-content: space-between;
+}
+.menu{
+   align-items: center;
+   padding-top: 30px;
+}
+.grid{
+    background-color: aquamarine;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: flex-end;
+}
+.siteDescription{
+  background-color: lightskyblue;
+}
+body{
+    background-color: powderblue;
+}
+.aboutMe h1{
+text-align: center;
+}
+.menu1{
+    display: flex;
+    justify-content: flex-end;
+}
+.myPicture{
+    display: flex;
+    justify-content: center;
+}
+a:link{
+    color: salmon;
+}
+a:visited{
+    color: royalblue;
+}
+.item{
+    position: relative;
+
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.33;
+}
+.siteDescription:hover {
+    background-color: seagreen;
+}
+.siteDescription:hover p{
+    color: silver;
+}
+h1:hover{
+     color: skyblue;
+}
+.item:hover p{
+    color: slateblue;
+}
+.myPicture:hover img{
+    color: snow;
+}
+.Description:hover p{
+    color: tan;
+}
